@@ -30,7 +30,7 @@
 				<a href="#" class = "headerMenu">HOME</a>
 				<a href="#" class = "headerMenu">ABOUT</a>
 				<a href="#" class = "headerMenu">건강진단</a>
-				<a href="#" class = "headerMenu">내 처방전11</a>
+				<a href="#" class = "headerMenu">내 처방전</a>
 				<a href="#" class = "headerMenu">챌린지/커뮤니티</a>
 			</div>
 		</div>
