@@ -1,0 +1,67 @@
+@charset "EUC-KR";
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, pre, a, address, img, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, footer, header, nav, section, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+a{
+	display:inline-block;
+	text-decoration: none;
+	color : black;
+}
+#header {
+    position: relative;
+    z-index: 2;
+    background: #CDC8E7;
+}
+
+.inner {width:1180px; margin:0 auto; position:relative;}
+.inner:after {clear:both; display:block; content:"";}
+@media (max-width: 1180px){
+	.inner {width:100%;}
+}
+#header .inner .logo {
+    display: flex; /* Flexbox로 변경 */
+    justify-content: center; /* 수평 중앙 정렬 */
+    align-items: center; /* 수직 중앙 정렬 */
+    width: 450px; /* 고정 너비 */
+    height: 89px; /* 고정 높이 */
+    padding: 0; /* 불필요한 padding 제거 */
+    margin: auto; /* 부모 요소 기준 중앙 정렬 */
+
+}
+
+#header .inner .logo img {
+    width: 100%; /* 이미지가 부모의 너비를 따라감 */
+    height: auto; /* 비율 유지 */
+}
+.navbar-toggler-icon {
+    --bs-navbar-toggler-icon-bg: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e);
+}
+.sidebarBackGround{
+	display : inline-block;
+	background: #8475BC;
+	border-radius: 100%;
+}
+
+.headerMenu{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 650;
+font-size : 18px;
+line-height: 150%;
+color: #000000;	
+}
+/* 첼린지/커뮤니티 */
+
+position: absolute;
+width: 179px;
+height: 38.05px;
+left: 1410px;
+top: 129.25px;
+
+
+
+
+
+
