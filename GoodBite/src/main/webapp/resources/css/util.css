@@ -21,19 +21,19 @@ a{
 	.inner {width:100%;}
 }
 #header .inner .logo {
-    display: flex; /* Flexbox·Î º¯°æ */
-    justify-content: center; /* ¼öÆò Áß¾Ó Á¤·Ä */
-    align-items: center; /* ¼öÁ÷ Áß¾Ó Á¤·Ä */
-    width: 450px; /* °íÁ¤ ³Êºñ */
-    height: 89px; /* °íÁ¤ ³ôÀÌ */
-    padding: 0; /* ºÒÇÊ¿äÇÑ padding Á¦°Å */
-    margin: auto; /* ºÎ¸ğ ¿ä¼Ò ±âÁØ Áß¾Ó Á¤·Ä */
+    display: flex; /* Flexboxë¡œ ë³€ê²½ */
+    justify-content: center; /* ìˆ˜í‰ ì¤‘ì•™ ì •ë ¬ */
+    align-items: center; /* ìˆ˜ì§ ì¤‘ì•™ ì •ë ¬ */
+    width: 450px; /* ê³ ì • ë„ˆë¹„ */
+    height: 89px; /* ê³ ì • ë†’ì´ */
+    padding: 0; /* ë¶ˆí•„ìš”í•œ padding ì œê±° */
+    margin: auto; /* ë¶€ëª¨ ìš”ì†Œ ê¸°ì¤€ ì¤‘ì•™ ì •ë ¬ */
 
 }
 
 #header .inner .logo img {
-    width: 100%; /* ÀÌ¹ÌÁö°¡ ºÎ¸ğÀÇ ³Êºñ¸¦ µû¶ó°¨ */
-    height: auto; /* ºñÀ² À¯Áö */
+    width: 100%; /* ì´ë¯¸ì§€ê°€ ë¶€ëª¨ì˜ ë„ˆë¹„ë¥¼ ë”°ë¼ê° */
+    height: auto; /* ë¹„ìœ¨ ìœ ì§€ */
 }
 .navbar-toggler-icon {
     --bs-navbar-toggler-icon-bg: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e);
@@ -52,7 +52,7 @@ font-size : 18px;
 line-height: 150%;
 color: #000000;	
 }
-/* Ã¿¸°Áö/Ä¿¹Â´ÏÆ¼ */
+/* ì²¼ë¦°ì§€/ì»¤ë®¤ë‹ˆí‹° */
 
 position: absolute;
 width: 179px;
